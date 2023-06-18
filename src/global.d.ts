@@ -3,4 +3,7 @@ export {};
 
 declare global {
   // your app's global types go here
+
+  // e.g.
+  type ID = string;
 }

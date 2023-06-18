@@ -5,8 +5,9 @@ const GetPortOptionsSchema = z.object({
 });
 
 /**
- * Within the typedef curly-braces below, we can use regular typescript; here,
- * we declare a local type `GetPortOptions` using zod's `z.infer` type function.
+ * Within the typedef curly-braces below, we can use regular typescript.
+ *
+ * This declares a local type `GetPortOptions` using zod's `z.infer` type function.
  *
  * @typedef {z.infer<GetPortOptionsSchema>} GetPortOptions
  */
